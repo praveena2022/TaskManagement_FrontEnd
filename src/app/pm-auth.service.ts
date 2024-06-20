@@ -8,7 +8,7 @@ import { catchError, map } from 'rxjs/operators';
 })
 export class PmAuthService {
 
-  private apiUrl = 'http://localhost:8080/project-managers';  // Spring Boot backend URL
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/project-managers';  // Spring Boot backend URL
 
   constructor(private http: HttpClient) {}
 

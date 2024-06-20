@@ -10,7 +10,7 @@ import { Task } from './project';
 })
 export class TaskService {
 
-  private apiUrl = 'http://localhost:8080/tasks'; // Replace with your API endpoint
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/tasks'; // Replace with your API endpoint
 
   constructor(private http: HttpClient) { }
 

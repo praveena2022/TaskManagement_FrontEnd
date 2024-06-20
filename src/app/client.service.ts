@@ -8,7 +8,7 @@ import { project } from './admin-auth';
   providedIn: 'root'
 })
 export class ClientService {
-  private apiUrl = 'http://localhost:8080/clients';
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/clients';
 
 constructor(private http: HttpClient) { }
 

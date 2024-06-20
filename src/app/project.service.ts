@@ -13,7 +13,7 @@ export class ProjectService {
   //   throw new Error('Method not implemented.');
   // }
 
-  private apiURL = 'http://localhost:8080/projects'; // Replace with your API endpoint
+  private apiURL = 'https://revtaskmanagement.azurewebsites.net/projects'; // Replace with your API endpoint
 
   constructor(private http: HttpClient) { }
 

@@ -127,7 +127,7 @@ import { Task } from './projectp';
   providedIn: 'root'
 })
 export class TaskpService {
-  private apiUrl = 'http://localhost:8080/tasks';
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/tasks';
 
 
   constructor(private http: HttpClient) { }

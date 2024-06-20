@@ -7,7 +7,7 @@ import { catchError, map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AdminAuthService {
-  private apiUrl = 'http://localhost:8080/admins';  // Spring Boot backend URL
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/admins';  // Spring Boot backend URL
 
   constructor(private http: HttpClient) {}
 

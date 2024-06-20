@@ -6,7 +6,7 @@ import { Observable, catchError, map, throwError } from 'rxjs';
   providedIn: 'root'
 })
 export class MemAuthService {
-  private apiUrl = 'http://localhost:8080/team-members';  // Spring Boot backend URL
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/team-members';  // Spring Boot backend URL
 
   constructor(private http: HttpClient) {}
 

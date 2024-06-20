@@ -107,7 +107,7 @@ import { TeamMember } from './projectp';
   providedIn: 'root'
 })
 export class UserServiceService {
-  private apiUrl = 'http://localhost:8080/team-members';
+  private apiUrl = 'https://revtaskmanagement.azurewebsites.net/team-members';
 
   constructor(private http: HttpClient) { }
 

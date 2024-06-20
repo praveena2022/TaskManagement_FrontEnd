@@ -63,7 +63,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProjectServiceService {
-  apiURL='http://localhost:8080/projects';
+  apiURL='https://revtaskmanagement.azurewebsites.net/projects';
   
   constructor(private http: HttpClient) {}
 
