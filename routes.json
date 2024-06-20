@@ -2,12 +2,12 @@
     "routes": [
       {
         "route": "/",
-        "serve": "/dist/project-p1",
+        "serve": "/index.html",
         "statusCode": 200
       },
       {
         "route": "/*",
-        "serve": "/dist/project-p1",
+        "serve": "/index.html",
         "statusCode": 200
       }
     ]
